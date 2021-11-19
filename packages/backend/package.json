@@ -1,0 +1,14 @@
+{
+  "name": "@my/backend",
+  "packageManager": "yarn@3.1.0",
+  "main": "dist/index.js",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@my/types": "workspace:1.0.0"
+  }
+}

@@ -1,2 +1,18 @@
 # yarn-workspaces-typescript-monorepo
-My attempt at setting up a monorepo with yarn workspaces for typescript projects and shared libs
+
+## Prerequisites
+
+* Yarn v3+
+
+Also be sure to install [yarn.build](https://yarn.build/)
+```bash
+> yarn plugin import https://yarn.build/latest
+```
+
+## How to build:
+
+From this root directory, run:
+
+`> yarn install`
+`> yarn build`
+`> yarn workspace @my/backend start`
